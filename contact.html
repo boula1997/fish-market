@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@ https://templatemo.com/tm-556-catalog-z
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#">
                 <i class="fas fa-film mr-2"></i>
                 Catalog-Z
             </a>
@@ -36,19 +36,27 @@ https://templatemo.com/tm-556-catalog-z
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link nav-link-1" href="index.html">Photos</a>
+                    <a class="nav-link nav-link-1" aria-current="page" href="index.html">الصور</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-2" href="videos.html">Videos</a>
+                    <a class="nav-link nav-link-2" href="videos.html"> الفيديوهات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-3" href="about.html">About</a>
+                    <a class="nav-link nav-link-3" href="about.html">من نحن؟</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-link-4 active" aria-current="page" href="contact.html">Contact</a>
+                    <a class="nav-link nav-link-4 active" href="contact.html">تواصل معنا</a>
                 </li>
             </ul>
             </div>
+        </div>
+        <div class="tm-hero d-flex justify-content-center align-items-center px-5" >
+            <form class="d-flex tm-search-form">
+                <input class="form-control tm-search-input" type="search" placeholder="بحث" aria-label="بحث">
+                <button class="btn btn-outline-success tm-search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
         </div>
     </nav>
 
@@ -60,61 +68,61 @@ https://templatemo.com/tm-556-catalog-z
                 <h2 class="tm-text-primary mb-5">Contact Page</h2>
                 <form id="contact-form" action="" method="POST" class="tm-contact-form mx-auto">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="اسم" required />
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="بريد إلكتروني" required />
                     </div>
-                    <div class="form-group">
-                        <select class="form-control" id="contact-select" name="inquiry">
-                            <option value="-">Subject</option>
-                            <option value="sales">Sales &amp; Marketing</option>
-                            <option value="creative">Creative Design</option>
-                            <option value="uiux">UI / UX</option>
+                    <div class="form-group" dir="ltr">
+                        <select class="form-control text-center" id="contact-select" name="inquiry">
+                            <option value="-">موضوع</option>
+                            <option value="sales">مبيعات &amp; تسويق</option>
+                            <option value="creative">التصميم الإبداعي</option>
+                            <option value="uiux">واجهة المستخدم / x</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required=></textarea>
+                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="رسالة" required=></textarea>
                     </div>
 
                     <div class="form-group tm-text-right">
-                        <button type="submit" class="btn btn-primary">Send</button>
+                        <button type="submit" class="btn btn-primary">يرسل</button>
                     </div>
                 </form>                
             </div>
             <div class="col-lg-4 col-12 mb-5">
                 <div class="tm-address-col">
-                    <h2 class="tm-text-primary mb-5">Our Address</h2>
-                    <p class="tm-mb-50">Quisque eleifend mi et nisi eleifend pretium. Duis porttitor accumsan arcu id rhoncus. Praesent fermentum venenatis ipsum, eget vestibulum purus. </p>
-                    <p class="tm-mb-50">Nulla ut scelerisque elit, in fermentum ante. Aliquam congue mattis erat, eget iaculis enim posuere nec. Quisque risus turpis, tempus in iaculis.</p>
+                    <h2 class="tm-text-primary mb-5">عنواننا</h2>
+                    <p class="tm-mb-50">كل مراهقون هم فقط مراهقون.الواجب المنزلي porttitor طبقة الكحول التي تتراوح.حاضر التخمير تعقيمه ، يحتاج الفلفل الحار. </p>
+                    <p class="tm-mb-50">لا مثل مطور الشوكولاتة ، في الخميرة من قبل.كان التخطيط غير صالح ، يحتاج إلى تعيينه.كل تذاكر ابتسامة ، وقت في السكر.</p>
                     <address class="tm-text-gray tm-mb-50">
-                        120-240 Fusce eleifend varius tempus<br>
-                        Duis consectetur at ligula 10660
+                        120-240 FERENICAL FERENICAL<br>
+                  الواجب المنزلي incectetur في 10660 محفوظة
                     </address>
                     <ul class="tm-contacts">
                         <li>
                             <a href="#" class="tm-text-gray">
                                 <i class="fas fa-envelope"></i>
-                                Email: info@company.com
+                                بريد إلكتروني: info@company.com
                             </a>
                         </li>
                         <li>
                             <a href="#" class="tm-text-gray">
                                 <i class="fas fa-phone"></i>
-                                Tel: 010-020-0340
+                                هاتف: 010-020-0340
                             </a>
                         </li>
                         <li>
                             <a href="#" class="tm-text-gray">
                                 <i class="fas fa-globe"></i>
-                                URL: www.company.com
+                                عنوان URL: www.company.com
                             </a>
                         </li>
                     </ul>
                 </div>                
             </div>
             <div class="col-lg-4 col-12">
-                <h2 class="tm-text-primary mb-5">Our Location</h2>
+                <h2 class="tm-text-primary mb-5">موقعنا</h2>
                 <!-- Map -->
                 <div class="mapouter mb-4">
                     <div class="gmap-canvas">
@@ -128,10 +136,10 @@ https://templatemo.com/tm-556-catalog-z
         <div class="row tm-mb-74 tm-people-row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
                 <img src="img/people-1.jpg" alt="Image" class="mb-4 img-fluid">
-                <h2 class="tm-text-primary mb-4">Ryan White</h2>
-                <h3 class="tm-text-secondary h5 mb-4">Chief Executive Officer</h3>
+                <h2 class="tm-text-primary mb-4">ريان وايت</h2>
+                <h3 class="tm-text-secondary h5 mb-4">الرئيس التنفيذي</h3>
                 <p class="mb-4">
-                    Mauris ante tellus, feugiat nec metus non, bibendum semper velit. Praesent laoreet urna id tristique fermentum. Morbi venenatis dui quis diam mollis pellentesque.
+                   موريس أمام الأرض ، تخشى الخرب ، لا ، يشرب دائمًا ، من فضلك.حاضر Laoreet urna هوية الخميرة الخميرة.كرة القدم تعقيم وثيقة الهوية الوحيدة التغذية الناعمة.
                 </p>
                 <ul class="tm-social pl-0 mb-0">
                     <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
@@ -141,11 +149,10 @@ https://templatemo.com/tm-556-catalog-z
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
                 <img src="img/people-2.jpg" alt="Image" class="mb-4 img-fluid">
-                <h2 class="tm-text-primary mb-4">Catherine Pinky</h2>
-                <h3 class="tm-text-secondary h5 mb-4">Chief Marketing Officer</h3>
+                <h2 class="tm-text-primary mb-4">كاثرين بينكي</h2>
+                <h3 class="tm-text-secondary h5 mb-4">كبير مسؤولي التسويق</h3>
                 <p class="mb-4">
-                    Sed faucibus nec velit finibus accumsan. Sed varius augue et leo pharetra, in varius lacus eleifend. Quisque ut eleifend lacus.
-                </p>
+لكن الحلق أو الأطراف الخارجية للطبقة.ومع ذلك ، فإن العديد من الدعاية والفريتيرا الأسد في مجموعة مختلفة قابلة للخصم.كل للمراهقين.                </p>
                 <ul class="tm-social pl-0 mb-0">
                     <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
@@ -154,11 +161,10 @@ https://templatemo.com/tm-556-catalog-z
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
                 <img src="img/people-3.jpg" alt="Image" class="mb-4 img-fluid">
-                <h2 class="tm-text-primary mb-4">Johnny Brief</h2>
-                <h3 class="tm-text-secondary h5 mb-4">Accounting Executive</h3>
+                <h2 class="tm-text-primary mb-4">جوني موجز</h2>
+                <h3 class="tm-text-secondary h5 mb-4">المحاسبة التنفيذية</h3>
                 <p class="mb-4">
-                    Sed faucibus nec velit finibus accumsan. Sed varius augue et leo pharetra, in varius lacus eleifend. Quisque ut eleifend lacus.
-                </p>
+لكن الحلق أو الأطراف الخارجية للطبقة.ومع ذلك ، فإن العديد من الدعاية والفريتيرا الأسد في مجموعة مختلفة قابلة للخصم.كل للمراهقين.                </p>
                 <ul class="tm-social pl-0 mb-0">
                     <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
@@ -167,11 +173,10 @@ https://templatemo.com/tm-556-catalog-z
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-5">
                 <img src="img/people-4.jpg" alt="Image" class="mb-4 img-fluid">
-                <h2 class="tm-text-primary mb-4">George Nelson</h2>
-                <h3 class="tm-text-secondary h5 mb-4">Creative Art Director #C69</h3>
+                <h2 class="tm-text-primary mb-4">جورج نيلسون</h2>
+                <h3 class="tm-text-secondary h5 mb-4">مدير الفن الإبداعي #C69</h3>
                 <p class="mb-4">
-                    Nunc convallis facilisis congue. Curabitur gravida rutrum justo sed pulvinar. Pellentesque ac ante in erat bibendum dignissim.
-                </p>
+الآن الوادي سهل للواجب المنزلي.دردشة العلاج المكياج الحامل ولكن الوسادة.Pellentesque وقبل أن يكون أحد أصول الشرب.                </p>
                 <ul class="tm-social pl-0 mb-0">
                     <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
@@ -185,16 +190,16 @@ https://templatemo.com/tm-556-catalog-z
         <div class="container-fluid tm-container-small">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">About Catalog-Z</h3>
-                    <p>Catalog-Z is free Bootstrap 5 Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">حول كتالوج ز</h3>
+                    <p>Catalog-Z is free <a rel="sponsored" href="https://v5.getbootstrap.com/">bootstrap5</a> قالب ألفا 2 HTML لمواقع الفيديو والصور.يمكنك استخدام تخطيط Templatemo هذا بحرية لتكامل الواجهة الأمامية مع أي نوع من موقع CMS.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
-                    <h3 class="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">روابطنا</h3>
                     <ul class="tm-footer-links pl-0">
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Our Company</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">الاعلان</a></li>
+                        <li><a href="#">الدعم</a></li>
+                        <li><a href="#">شركتنا</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
@@ -204,16 +209,13 @@ https://templatemo.com/tm-556-catalog-z
                         <li class="mb-2"><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
                         <li class="mb-2"><a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a></li>
                     </ul>
-                    <a href="#" class="tm-text-gray text-right d-block mb-2">Terms of Use</a>
-                    <a href="#" class="tm-text-gray text-right d-block">Privacy Policy</a>
+                    <a href="#" class="tm-text-gray text-right d-block mb-2">شروط الاستخدام</a>
+                    <a href="#" class="tm-text-gray text-right d-block">سياسة الخصوصية</a>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
-                    Copyright 2020 Catalog-Z Company. All rights reserved.
-                </div>
-                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
-                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">TemplateMo</a>
+                <div class=" text-center">
+                    حقوق الطبع والنشر 2020 Catalog-Z Company.كل الحقوق محفوظة.
                 </div>
             </div>
         </div>
